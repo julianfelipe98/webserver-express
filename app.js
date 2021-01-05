@@ -6,7 +6,7 @@ const {hbs}= require('./config/hbs');
 const {argv} = require('./config/yargs');
 console.log(argv)
 /**
- * se define de esta manera dado que heroku nos da el puerto en el que se va a ejecutar la aplicacion y lo guarda en la variable de entorno 
+ * heroku give us the respective port from where is running the app
  */
 const port=process.env.PORT || 3000
 // const port=argv.p || 4000;
