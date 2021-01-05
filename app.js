@@ -6,7 +6,7 @@ const {hbs}= require('./config/hbs');
 const {argv} = require('./config/yargs');
 console.log(argv)
 /**
- * heroku give us the respective port from where is running the app
+ * heroku give us the respective port from where is running the app, this port config is used in heroku, the below config is used in local with yargs and -p flag to set the port 
  */
 const port=process.env.PORT || 3000
 // const port=argv.p || 4000;
